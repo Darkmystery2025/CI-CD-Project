@@ -1,4 +1,4 @@
-name: Production
+name: production
 
 # WANN startet dieser Workflow?
 # NUR wenn ein Tag gepusht wird der mit "v" beginnt (z.B. v1.0.0)
