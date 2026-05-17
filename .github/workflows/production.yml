@@ -58,5 +58,5 @@ jobs:
           curl -X POST ${{ secrets.SLACK_WEBHOOK_URL }} \
           -H 'Content-type: application/json' \
           --data '{
-            "text": " *Production-Deployment FEHLGESCHLAGEN!*\n👤 Gestartet von: ${{ github.actor }}\n🏷️ Version: ${{ github.ref_name }}\n🔍 Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            "text": " *Production-Deployment FEHLGESCHLAGEN!*\n Gestartet von: ${{ github.actor }}\n Version: ${{ github.ref_name }}\n Logs: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           }'
