@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: Wiundows
+    runs-on: ubuntu-latest   # GitHub startet eine frische Ubuntu-VM für uns
 
     steps:
 
